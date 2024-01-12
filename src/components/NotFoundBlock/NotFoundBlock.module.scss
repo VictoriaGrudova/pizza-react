@@ -1,0 +1,23 @@
+.root {
+    text-align: center;
+    padding: 5%;
+
+    img {
+        width: 20%;
+
+        @media ((max-width: 780px)) {
+            width: 50%;
+        }
+
+        @media ((max-width: 440px)) {
+            width: 90%;
+        }
+    }
+
+    h2{
+       
+        font-family: "Shadows Into Light", cursive;
+        color: #736672;
+        text-align: center;
+    }
+}
